@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import DropAria from '../DropAria/DropAria';
+import DropArea from '../DropAria/DropAria';
 import './app.scss';
 
 const App: FC = () => {
@@ -12,7 +12,7 @@ const App: FC = () => {
             Logo should be square, 100px size and in png, jpeg file format.
           </p>
         </div>
-        <DropAria />
+        <DropArea />
       </div>
     </div>
   );
