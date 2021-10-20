@@ -1,0 +1,27 @@
+.circle-out {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ccc;
+  overflow: hidden;
+  .circle-in {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    margin: 2px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .progress {
+    height: 90px;
+    width: 180px;
+    background: #4996ee;
+    position: absolute;
+    top: -90px;
+    left: -60px;
+    transform: rotate(30deg);
+    transform-origin: 90px 90px;
+    transition: all 0.3s;
+  }
+}
