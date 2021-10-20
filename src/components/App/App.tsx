@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import DropArea from '../DropAria/DropAria';
+import DropArea from '../DropArea/DropArea';
 import './app.scss';
 
 const App: FC = () => {
